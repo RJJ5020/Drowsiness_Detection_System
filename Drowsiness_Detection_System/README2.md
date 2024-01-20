@@ -3,19 +3,19 @@ This Python script uses the Mediapipe library along with OpenCV to perform head 
 ### Install the libraries
  we will install the OpenCV and the Mediapipe library by using pip. On your terminal, please write this command:
 
--pip install opencv-python
--pip install mediapipe
+-pip install opencv-python<br>
+-pip install mediapipe<br>
 ### Download the Music File:
 
 Download an audio file (e.g., "music.wav") to be played as an alarm when the user is not looking forward. Save it in the project directory.
 
 ### Functionality
-The script captures video from the default camera (VideoCapture(0)).
-It uses the face mesh model to detect facial landmarks and estimates the 3D head pose.Gaze direction is monitored based on the orientation of the head.If the user's gaze deviates from the forward position for a specified duration (5 seconds by default), an alarm is triggered.The alarm includes a visual alert on the video feed and plays the specified audio file.
+The script captures video from the default camera (VideoCapture(0)).<br>
+It uses the face mesh model to detect facial landmarks and estimates the 3D head pose.Gaze direction is monitored based on the orientation of the head.If the user's gaze deviates from the forward position for a specified duration (5 seconds by default), an alarm is triggered.The alarm includes a visual alert on the video feed and plays the specified audio file.<br>
 ###  Controls
-Press q to exit the application.
+Press q to exit the application.<br>
 ### Dependencies
-OpenCV
-Mediapipe
-NumPy
-Pygame
+OpenCV<br>
+Mediapipe<br>
+NumPy<br>
+Pygame<br>
